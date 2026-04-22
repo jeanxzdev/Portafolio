@@ -1,0 +1,197 @@
+Create a modern, professional developer portfolio using Astro as the main framework and React for interactive components.
+
+## 🧱 Tech Stack
+
+* Astro (main framework)
+* React (only for interactive components)
+* Tailwind CSS (styling)
+* Framer Motion (animations)
+* React Hook Form + Zod (forms and validation)
+* Resend (email sending via API route)
+* i18n (Spanish / English toggle)
+
+---
+
+## 🎯 Purpose of the Website
+
+This portfolio is designed to:
+
+* Demonstrate real-world problem-solving skills
+* Show projects with business impact
+* Position the developer as someone capable of building real products, not just UI
+
+---
+
+## 👤 Personal Information
+
+Name: Jeancarlos Salcedo Quispe
+Role: Frontend Developer (with fullstack knowledge)
+Background: Self-taught developer with strong practical focus, currently specializing in development and aiming to transition into software analysis and data analysis.
+Message: "I build real, functional products that solve business problems."
+
+---
+
+## 🎨 Design Guidelines
+
+* Style: Professional + Futuristic (clean, not flashy)
+* Dark theme (black / dark gray background)
+* Accent color: subtle blue or violet
+* Clean typography
+* Smooth animations (not excessive)
+* Focus on clarity and hierarchy
+
+---
+
+## 📄 Sections
+
+### 1. Hero (Landing)
+
+* Name + role
+* Short impactful phrase
+* Call to action (View Projects / Contact)
+
+---
+
+### 2. About Me
+
+* Explain mindset and approach
+* Focus on problem-solving, not just tech
+* Mention self-taught journey and practical learning
+
+---
+
+### 3. Projects
+
+Each project should include:
+
+* Title
+* Description
+* Problem solved
+* Technologies used
+* Live demo link
+* GitHub link
+
+Initial project:
+Title: RapBoys Barber Shop Ecommerce
+Description: Displays product catalog and enables purchase
+Problem: Customers didn’t know available products or pricing
+Solution: Real-time product visibility and simplified ordering
+Tech: React (Vite), Django, MySQL, Cloudinary
+Demo: https://barber-rap-boys.vercel.app/
+GitHub: https://github.com/jeanxzdev/barber_RapBoys
+
+Projects should be loaded from a local JSON file (no database)
+
+---
+
+### 4. Technologies
+
+Display categorized stack:
+Frontend, Backend, Databases, Tools, Deployment
+
+Technologies:
+React, Next.js, Tailwind, Bootstrap
+Python, PHP, Express, Laravel, Django, Flask
+MySQL, PostgreSQL
+Git, GitHub, Docker, Postman
+
+Stack tools:
+n8n, Resend, Vercel, Netlify, Railway, Render
+
+---
+
+### 5. Certificates
+
+* Basic English A2 – ViventialEnglish
+* AI & Computer Vision Seminar – UNT
+
+---
+
+### 6. Blog (Notes System)
+
+* Markdown-based blog
+* Used as personal knowledge base
+* No CMS required
+* Posts stored locally and rendered dynamically
+
+---
+
+### 7. Contact
+
+Fields:
+
+* Name
+* Email
+* Message
+
+Validation:
+
+* Use React Hook Form + Zod
+
+Submission:
+
+* Send email using Resend via Astro API route `/api/contact`
+
+Recipient email:
+[jeanxzdev@gmail.com](mailto:jeanxzdev@gmail.com)
+
+Also include:
+
+* LinkedIn: https://www.linkedin.com/in/jeancarlos-salcedo-quispe/
+* WhatsApp: +51 963562067
+
+---
+
+## 🌐 Internationalization
+
+* Support Spanish and English
+* Add language toggle
+* Store translations in structured files (JSON)
+
+---
+
+## ✨ Animations
+
+Use Framer Motion for:
+
+* Section reveal on scroll
+* Hover effects
+* Smooth transitions
+
+Keep animations subtle and professional
+
+---
+
+## 📁 Project Structure
+
+/src
+/components
+/pages
+/layouts
+/content (blog markdown)
+/data (projects.json)
+/i18n
+/api (contact endpoint)
+
+/public
+
+---
+
+## ⚙️ Additional Requirements
+
+* Fully responsive
+* SEO-friendly
+* Fast loading (Astro optimized)
+* Clean and scalable architecture
+
+---
+
+## 🚀 Deployment
+
+Prepare project for deployment on GitHub Pages or Vercel
+
+---
+
+## 🧠 Important
+
+Focus on clarity, structure, and real value presentation rather than overdesign.

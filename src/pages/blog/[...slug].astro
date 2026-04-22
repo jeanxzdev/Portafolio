@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Layout title={post.data.title}>
+  <article class="max-w-3xl mx-auto px-6 py-24 prose prose-invert prose-violet">
+    <a href="/#blog" class="text-brand-primary mb-12 inline-block">← Volver al inicio</a>
+    <h1 class="text-4xl font-bold mb-4 font-outfit">{post.data.title}</h1>
+    <p class="text-white/40 mb-12">{post.data.pubDate.toLocaleDateString()}</p>
+    <div class="markdown-content">
+        <Content />
+    </div>
+  </article>
+</Layout>
+
+<style is:global>
+    .markdown-content h1 { @apply text-3xl font-bold mt-8 mb-4; }
+    .markdown-content h2 { @apply text-2xl font-bold mt-8 mb-4; }
+    .markdown-content h3 { @apply text-xl font-bold mt-6 mb-2; }
+    .markdown-content p { @apply text-white/70 leading-relaxed mb-4; }
+</style>

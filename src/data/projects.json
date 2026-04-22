@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rapboys-barber",
+    "title": "RapBoys Barber Shop Ecommerce Click & Collect",
+    "description": {
+      "es": "Muestra el catálogo de productos y permite realizar compras.",
+      "en": "Displays product catalog and enables purchase."
+    },
+    "problem": {
+      "es": "Los clientes no conocían los productos disponibles ni sus precios.",
+      "en": "Customers didn’t know available products or pricing."
+    },
+    "solution": {
+      "es": "Visibilidad de productos en tiempo real y pedidos simplificados.",
+      "en": "Real-time product visibility and simplified ordering."
+    },
+    "tech": [
+      "React",
+      "Django",
+      "MySQL",
+      "Cloudinary",
+      "Clever Cloud"
+    ],
+    "demo": "https://barber-rap-boys.vercel.app/",
+    "github": "https://github.com/jeanxzdev/barber_RapBoys",
+    "image": "/projects/rapboys.png"
+  }
+]

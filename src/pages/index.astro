@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import App from '../components/App';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const formattedPosts = posts.map(post => ({
+    slug: post.id,
+    data: post.data
+}));
+---
+
+<Layout title="Jeancarlos Salcedo Quispe | Portfolio">
+	<App client:load posts={formattedPosts} />
+</Layout>

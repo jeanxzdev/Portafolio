@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "role": "Soy Jeancarlos Salcedo (Desarrollador)",
+    "role1": "Analista de software",
+    "role2": "Codificador creativo",
+    "message": "Construyo productos reales y funcionales que resuelven problemas de negocio.",
+    "cta_projects": "Ver Proyectos",
+    "cta_contact": "Contacto"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "tech": "Tecnologías",
+    "contact": "Contacto",
+    "blog": "Blog"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "content": "Soy un desarrollador autodidacta con un enfoque práctico y orientado a resultados. Me especializo en crear soluciones que no solo se ven bien, sino que impactan positivamente en el negocio."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "problem": "Problema",
+    "solution": "Solución",
+    "view_live": "Ver demo",
+    "view_github": "GitHub"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "role": "Im Jeancarlos Salcedo (Developer)",
+    "role1": "Software Analyst",
+    "role2": "Creative coder",
+    "message": "I build real, functional products that solve business problems.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact"
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "tech": "Tech",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "I am a self-taught developer with a practical and results-oriented approach. I specialize in creating solutions that not only look good but also have a positive impact on the business."
+  },
+  "projects": {
+    "title": "Projects",
+    "problem": "Problem",
+    "solution": "Solution",
+    "view_live": "Live demo",
+    "view_github": "GitHub"
+  }
+}
