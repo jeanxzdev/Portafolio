@@ -35,5 +35,8 @@
     "typescript": "^5.9.3",
     "typewriter-effect": "^2.22.0",
     "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19"
   }
 }
