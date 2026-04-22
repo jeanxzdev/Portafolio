@@ -42,7 +42,7 @@ export default function ProjectCard({ project, lang, t }: { project: any, lang: 
       >
         {project.image ? (
           <img
-            src={project.image}
+            src={project.image.startsWith('http') ? project.image : `${import.meta.env.BASE_URL}${project.image}`}
             alt={project.title}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />

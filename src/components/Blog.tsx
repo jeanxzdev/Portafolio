@@ -10,7 +10,7 @@ export default function Blog({ posts, t }: { posts: any[], t: any }) {
           {posts.map((post, idx) => (
             <motion.a 
               key={post.slug}
-              href={`/Portafolio/blog/${post.slug}`}
+              href={`${import.meta.env.BASE_URL}/blog/${post.slug}`}
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: idx * 0.1 }}
