@@ -50,3 +50,26 @@ body {
     linear-gradient(to right, #8b5cf6, #3b82f6) border-box;
   border: 2px solid transparent;
 }
+
+@layer components {
+  .markdown-content h1 { @apply text-3xl font-bold mt-8 mb-4; }
+  .markdown-content h2 { @apply text-2xl font-bold mt-8 mb-4; }
+  .markdown-content h3 { @apply text-xl font-bold mt-6 mb-2; }
+  .markdown-content p { @apply text-white/70 leading-relaxed mb-4; }
+
+  .markdown-content {
+    @apply prose prose-invert max-w-none;
+  }
+
+  .markdown-content a {
+    @apply text-brand-primary hover:underline;
+  }
+
+  .markdown-content code {
+    @apply bg-white/5 px-1.5 py-0.5 rounded text-sm;
+  }
+
+  .markdown-content pre {
+    @apply bg-black border border-white/10 p-4 rounded-lg;
+  }
+}
